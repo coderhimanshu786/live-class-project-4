@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Poppins", "Montserrat", serif;
+}
+
+body {
+    background-image: url(./assets/bg.png);
+    /* background-size: cover; */
+}
+
+.container {
+    background-color: #0D0D0D;
+    height: 120px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+ul.list {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list-item {
+    margin-top: 50px;
+    margin-left: 120px;
+    text-decoration: none;
+}
+
+.button-small {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 250px;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(183, 60, 168);
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+h1.hero-heading {
+    margin-top: 6%;
+    margin-left: 9%;
+    font-size: 100px;
+    color: #CAD5E2;
+    letter-spacing: 3px;
+    line-height: 15vh;
+}
+
+p.hero-description {
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    font-weight: 600;
+    color: #CAD5E2;
+    font-size: 40px;
+}
+
+.button-large {
+    position: absolute;
+    top: 70%;
+    height: 80px;
+    width: 340px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(189, 52, 173);
+    color: #CAD5E2;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
